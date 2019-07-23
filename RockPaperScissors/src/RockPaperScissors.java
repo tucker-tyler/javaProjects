@@ -37,18 +37,6 @@ public class RockPaperScissors {
 		else if (userInput == 1 & n == 3 | userInput == 2 & n == 1 | userInput == 3 & n == 2) {
 			System.out.print("Player wins!");
                    }
-		// else if (userInput == 2 & n == 1) {
-		// 	System.out.print("Player wins!");
-    //                }
-		// else if (userInput == 2 & n == 3) {
-		// 	System.out.print("Computer wins!");
-    //                }
-		// else if (userInput == 3 & n == 1) {
-		// 	System.out.print("Computer wins!");
-    //                }
-		// else if (userInput == 3 & n == 2) {
-		// 	System.out.print("Player wins!");
-    //                }
 		else {
 			System.out.print("Error.");
 			}
