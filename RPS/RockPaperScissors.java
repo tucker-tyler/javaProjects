@@ -1,3 +1,5 @@
+package rockpaperscissors;
+
 /* RockPaperScissors Class:
  * Play rock paper scissors against an "ai"!
  * Generates random number for the AI for their choice.
