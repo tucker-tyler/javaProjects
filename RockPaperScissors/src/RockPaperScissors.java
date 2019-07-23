@@ -8,7 +8,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class RockPlayerScissors {
+public class RockPaperScissors {
 
 	public static void main(String[] args) {
 
@@ -31,28 +31,28 @@ public class RockPlayerScissors {
 		if(userInput == n) {
 			System.out.print("Tie!");
 			}
-		else if (userInput == 1 & n == 2) {
+		else if (userInput == 1 & n == 2 | userInput == 2 & n == 3 | userInput == 3 & n == 1) {
 			System.out.print("Computer wins!");
                    }
-		else if (userInput == 1 & n == 3) {
+		else if (userInput == 1 & n == 3 | userInput == 2 & n == 1 | userInput == 3 & n == 2) {
 			System.out.print("Player wins!");
                    }
-		else if (userInput == 2 & n == 1) {
-			System.out.print("Player wins!");
-                   }
-		else if (userInput == 2 & n == 3) {
-			System.out.print("Computer wins!");
-                   }
-		else if (userInput == 3 & n == 1) {
-			System.out.print("Computer wins!");
-                   }
-		else if (userInput == 3 & n == 2) {
-			System.out.print("Player wins!");
-                   }
+		// else if (userInput == 2 & n == 1) {
+		// 	System.out.print("Player wins!");
+    //                }
+		// else if (userInput == 2 & n == 3) {
+		// 	System.out.print("Computer wins!");
+    //                }
+		// else if (userInput == 3 & n == 1) {
+		// 	System.out.print("Computer wins!");
+    //                }
+		// else if (userInput == 3 & n == 2) {
+		// 	System.out.print("Player wins!");
+    //                }
 		else {
 			System.out.print("Error.");
 			}
 		System.out.println("\nPlayer selected: " + userInput);
-    System.out.println("Computer selected: " + n);
+		System.out.println("Computer selected: " + n);
  }
 }
