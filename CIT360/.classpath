@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ApplicationControllerPattern/src"/>
+	<classpathentry kind="src" path="Collections/src"/>
+	<classpathentry kind="src" path="Hibernate/src/main/java"/>
+	<classpathentry kind="src" path="Hibernate/src/test/java"/>
+	<classpathentry kind="src" path="HTTPUrlConecction/src"/>
+	<classpathentry kind="src" path="JavaCollections"/>
+	<classpathentry kind="src" path="JUnitTests/src/main/java"/>
+	<classpathentry kind="src" path="JUnitTests/src/test/java"/>
+	<classpathentry kind="src" path="ModelViewController/src"/>
+	<classpathentry kind="src" path="QCJSON-JSON/src"/>
+	<classpathentry kind="src" path="Servlets/src"/>
+	<classpathentry kind="src" path="Threads.Executors.Runnables/src"/>
+	<classpathentry kind="lib" path="ModelViewController/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="ModelViewController/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="ModelViewController/WebContent/WEB-INF/lib/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="lib" path="Servlets/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="Servlets/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="Servlets/WebContent/WEB-INF/lib/mysql-connector-java-5.1.38.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
